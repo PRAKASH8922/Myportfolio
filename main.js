@@ -118,7 +118,7 @@ window.addEventListener('scroll', scrollActive)
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize EmailJS
-  emailjs.init("m-dokqhPUQxNrWsLX"); // Replace with your actual public key
+  emailjs.init("O2wBdJUG9L20MI6_v"); // Replace with your actual public key
 
   // Select the form
   const form = document.getElementById("contact-form");
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Form submission triggered");
 
       // Send form data using EmailJS
-      emailjs.sendForm('service_f34yowf', 'template_44ogp9i', form)
+      emailjs.sendForm('service_f34yowf', 'template_4xjakv6', form)
           .then(function (response) {
               console.log("EmailJS response:", response);
               alert("Message sent successfully!");
